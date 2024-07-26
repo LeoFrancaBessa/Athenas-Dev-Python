@@ -1,0 +1,29 @@
+.card {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 8px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card.selected {
+  background-color: #e0e0e0; /* Cor de fundo para indicar seleção */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card h3 {
+  margin: 0 0 8px 0;
+  color: #333;
+}
+
+.card p {
+  margin: 4px 0;
+  color: #666;
+}
